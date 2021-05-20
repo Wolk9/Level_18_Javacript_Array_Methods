@@ -63,8 +63,7 @@ console.log(impeachBiddenSplice(presidents)); // ["Obama", "Bush", "Clinton"]
 // F:
 let strings = ["Winc", "Academy", "is", "leuk", ";-}"];
 const stringsTogether = () => {
-  let wholeSentence = strings.join(" ");
-  return wholeSentence;
+  return strings.join(" ");
 };
 
 console.log(stringsTogether());
