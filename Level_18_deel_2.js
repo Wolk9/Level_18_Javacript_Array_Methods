@@ -105,6 +105,21 @@ function isBelow100(array) {
 console.log(
   isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 100, 11, 77, 84, 98])
 );
+
+// function isBelow100(array) {
+//   return array.every((number) => {
+//     return number < 100;
+//   });
+// }
+// console.log(
+//   "Onder de 100?:",
+//   isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 101, 11, 77, 84, 98])
+// );
+// console.log(
+//   "Onder de 100, Should be true:",
+//   isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 11, 77, 84, 98])
+// );
+
 // result should be: false    moest wel de 101 veranderen in 100. Anders is hij niet op te lossen.
 
 // G Bonus:
